@@ -54,7 +54,7 @@ func main() {
 	ctx := client.StickyContext(context.Background())
 
 	// seed words of account, you can generate them with any wallet or using wallet.NewSeed() method
-	seedPhrase := "pride pulp party 0 mail invest guilt race insane 0 humble emerge vacant stadium spray gadget gallery modify soon enemy soft luxury power hope"
+	seedPhrase := "pride pulp party 0 mail invest 0 0 0 0 humble emerge vacant stadium spray gadget gallery modify soon enemy soft luxury power hope"
 	words := strings.Split(seedPhrase, " ")
 
 	// Start a ticker to print stats every second
